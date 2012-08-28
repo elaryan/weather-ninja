@@ -1,0 +1,9 @@
+GET /api/a90691c4aa169b8f/conditions/q/Spain/La_Coruna.json HTTP/1.1
+Host:
+api.wunderground.com
+X-Forwarded-For:
+10.203.10.109
+X-Target-URI:
+http://api.wunderground.com
+Connection:
+Keep-Alive

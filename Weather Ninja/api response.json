@@ -1,0 +1,112 @@
+HTTP/1.1 200 OK
+X-CreationTime:
+0.157
+Date:
+Tue, 28 Aug 2012 15:02:04 GMT
+Content-Length:
+2559
+Expires:
+Fri, 01 Jan 1990 00:00:00 GMT
+Set-Cookie:
+DT=1346166124:19600:365-l5; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT; domain=.wunderground.com
+Content-Type:
+application/json; charset=UTF-8
+Connection:
+close
+Server:
+Apache/1.3.33 (Unix) PHP/4.4.0
+Pragma:
+no-cache
+Cache-Control:
+no-cache, must-revalidate, no-cache="Set-Cookie", private
+
+{
+  "response":  {
+	"version": "0.1",
+	"termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+	"features":  {
+	  "conditions": 1
+	}
+  },
+  "current_observation":  {
+	"image":  {
+	  "url": "http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+	  "title": "Weather Underground",
+	  "link": "http://www.wunderground.com"
+	},
+	"display_location":  {
+	  "full": "La Coruna, Spain",
+	  "city": "La Coruna",
+	  "state": "",
+	  "state_name": "Spain",
+	  "country": "SP",
+	  "country_iso3166": "ES",
+	  "zip": "00000",
+	  "latitude": "43.36999893",
+	  "longitude": "-8.42000008",
+	  "elevation": "67.00000000"
+	},
+	"observation_location":  {
+	  "full": "APRSWXNET Coruna ES, La Coruna Airport, ",
+	  "city": "APRSWXNET Coruna ES, La Coruna Airport",
+	  "state": "",
+	  "country": "SP",
+	  "country_iso3166": "ES",
+	  "latitude": "43.336121",
+	  "longitude": "-8.368140",
+	  "elevation": "229 ft"
+	},
+	"estimated":  {},
+	"station_id": "MAT472",
+	"observation_time": "Last Updated on August 28, 4:17 PM CEST",
+	"observation_time_rfc822": "Tue, 28 Aug 2012 16:17:00 +0200",
+	"observation_epoch": "1346163420",
+	"local_time_rfc822": "Tue, 28 Aug 2012 17:02:04 +0200",
+	"local_epoch": "1346166124",
+	"local_tz_short": "CEST",
+	"local_tz_long": "Europe/Madrid",
+	"local_tz_offset": "+0200",
+	"weather": "Scattered Clouds",
+	"temperature_string": "74 F (23.3 C)",
+	"temp_f": 74,
+	"temp_c": 23.3,
+	"relative_humidity": "70%",
+	"wind_string": "Calm",
+	"wind_dir": "North",
+	"wind_degrees": 0,
+	"wind_mph": 0,
+	"wind_gust_mph": "4.0",
+	"wind_kph": 0,
+	"wind_gust_kph": "6.4",
+	"pressure_mb": "1019",
+	"pressure_in": "30.09",
+	"pressure_trend": "0",
+	"dewpoint_string": "64 F (18 C)",
+	"dewpoint_f": 64,
+	"dewpoint_c": 18,
+	"heat_index_string": "NA",
+	"heat_index_f": "NA",
+	"heat_index_c": "NA",
+	"windchill_string": "NA",
+	"windchill_f": "NA",
+	"windchill_c": "NA",
+	"feelslike_string": "74 F (23.3 C)",
+	"feelslike_f": "74",
+	"feelslike_c": "23.3",
+	"visibility_mi": "6.2",
+	"visibility_km": "10.0",
+	"solarradiation": "",
+	"UV": "6",
+	"precip_1hr_string": "0.00 in ( 0 mm)",
+	"precip_1hr_in": "0.00",
+	"precip_1hr_metric": " 0",
+	"precip_today_string": "0.18 in (5 mm)",
+	"precip_today_in": "0.18",
+	"precip_today_metric": "5",
+	"icon": "partlycloudy",
+	"icon_url": "http://icons-ak.wxug.com/i/c/k/partlycloudy.gif",
+	"forecast_url": "http://www.wunderground.com/global/stations/08001.html",
+	"history_url": "http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=MAT472",
+	"ob_url": "http://www.wunderground.com/cgi-bin/findweather/getForecast?query=43.336121,-8.368140"
+  }
+}
